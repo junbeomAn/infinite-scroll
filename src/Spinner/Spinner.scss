@@ -1,0 +1,21 @@
+.spinner {
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(99, 141, 255, 0.63);
+  border-top-color: rgb(55, 108, 253);
+  border-radius: 50%;
+  animation: spin 1s infinite;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .show {
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+}

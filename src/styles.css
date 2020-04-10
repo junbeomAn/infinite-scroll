@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: #eee;
+}
+body {
+  margin: 0;
+}
+* ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
